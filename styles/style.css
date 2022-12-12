@@ -78,15 +78,19 @@
 }
 
 /* section-description */
+.digits_space_top-bottom {
+  padding-top: 100px;
+  margin-bottom: 100px;
+}
 
 .description {
   display: flex;
   justify-content: center;
 }
 
-.description_padding-top {
+/*.description_space_top {
   padding-top: 100px;
-}
+} подумать над отступами в целом */
 
 .two-columns {
   width: 80%;
@@ -124,6 +128,62 @@
   line-height: 34px;
   font-size: 24px;
   font-weight: 600;
+}
+
+.section-title {
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: 600;
+}
+
+.section-title_space_bottom {
+  margin-bottom: 20px;
+}
+
+.section-subtitle {
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.table {
+  width: 1100px;
+  margin: auto;
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.table__cell {
+  width: 250px;
+  margin-top: 60px;
+}
+
+.table__heading {
+  margin: 0 0 20px;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.table__text {
+  margin: 0;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.table__spane-source {
+  display: block;
+  padding-top: 20px;
 }
 
 /* и элемента с модификатором вида ключ-значение */
