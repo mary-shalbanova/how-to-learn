@@ -7,8 +7,10 @@
     <link href="./styles/style.css" rel="stylesheet" />
     <title>Научиться учиться</title>
   </head>
+
   <body>
     <div class="page">
+      <!--header-->
       <header class="header">
         <img
           src="./images/logo_place_header.svg"
@@ -20,7 +22,7 @@
           <!--точно ли p? или другой тип заголовка-->
           Какие современные и эффективные подходы к обучению вы можете
           использовать в своей жизни?
-          <a class="header__link" href="#">Узнать</a>
+          <a class="header__link" href="#" target="_blank">Узнать</a>
         </p>
         <img
           src="./images/header-image.png"
@@ -31,7 +33,10 @@
       </header>
 
       <main class="content">
-        <section class="description description_space_top"> <!-- точно ли задаем отступы блокам-->
+        <!--description-->
+
+        <section class="description description_space_top">
+          <!-- точно ли задаем отступы блокам-->
           <div class="two-columns">
             <!--может использовать article? почитать в тренажере-->
             <h2 class="two-columns__brief">Главные проблемы в обучении</h2>
@@ -57,19 +62,21 @@
           </div>
         </section>
 
+        <!--digits-->
+
         <section class="digits digits_space_top-bottom">
-          <h3 class="section-title section-title_space_bottom">
+          <h2 class="section-title section-title_space_bottom">
             Цифры и факты
-          </h3>
-          <h4 class="section-subtitle">Про учёбу и мозг</h4>
+          </h2>
+          <h3 class="section-subtitle">Про учёбу и мозг</h3>
           <ul class="table">
             <li class="table__cell">
-              <h5 class="table__heading">86 миллиардов</h5>
+              <h4 class="table__heading">86 миллиардов</h4>
               <!--подумть какой уровень заголовка-->
               <p class="table__text">Число нейронов в мозге человека</p>
             </li>
             <li class="table__cell">
-              <h5 class="table__heading">2.1 миллиарда</h5>
+              <h4 class="table__heading">2.1 миллиарда</h4>
               <p class="table__text">
                 Число нуждающихся в повышении квалификации<span
                   class="table__spane-source"
@@ -78,18 +85,18 @@
               </p>
             </li>
             <li class="table__cell">
-              <h5 class="table__heading">1000 терабайт</h5>
+              <h4 class="table__heading">1000 терабайт</h4>
               <p class="table__text">Объём памяти человека</p>
             </li>
             <li class="table__cell">
-              <h5 class="table__heading">500 триллионов</h5>
+              <h4 class="table__heading">500 триллионов</h4>
               <p class="table__text">
                 Число ответственных за обучение нервных синапсов у взрослого
                 человека
               </p>
             </li>
             <li class="table__cell">
-              <h5 class="table__heading">420 миллионов</h5>
+              <h4 class="table__heading">420 миллионов</h4>
               <p class="table__text">
                 Число взрослых людей моложе 25 лет, не имеющих образования для
                 трудоустройства<span class="table__spane-source"
@@ -98,18 +105,103 @@
               </p>
             </li>
             <li class="table__cell">
-              <h5 class="table__heading">17–20 лет</h5>
+              <h4 class="table__heading">17–20 лет</h4>
               <p class="table__text">Пик обучаемости</p>
             </li>
             <li class="table__cell">
-              <h5 class="table__heading">1885 год</h5>
+              <h4 class="table__heading">1885 год</h4>
               <p class="table__text">Открытие кривой забывания</p>
             </li>
             <li class="table__cell">
-              <h5 class="table__heading">1889 год</h5>
+              <h4 class="table__heading">1889 год</h4>
               <p class="table__text">Открытие условного рефлекса</p>
             </li>
           </ul>
+        </section>
+
+        <!--feynman-->
+
+        <section class="feynman">
+          <h2 class="feynman__title">Метод Фейнмана</h2>
+          <h3 class="feynman__subtitle">Выучить и не забыть.</h3>
+          <a class="feynman__link" href="#" target="_blank">Подробнее</a>
+        </section>
+
+        <!--kaufman-->
+
+        <section class="kaufman kaufman_space_top-bottom">
+          <h2
+            class="section-title section-title_space_bottom section-title_theme_dark"
+          >
+            Принципы обучения
+          </h2>
+          <h3 class="section-subtitle section-subtitle_theme_dark">
+            от Джоша Кауфмана
+          </h3>
+          <ul class="table table_theme_dark">
+            <li class="table__cell table__cell_theme_dark">
+              <h4 class="table__heading table__heading_theme_dark">1</h4>
+              <!--подумть какой уровень заголовка-->
+              <p class="table__text table__text_theme_dark">
+                Выберите привлекательный проект.
+              </p>
+            </li>
+            <li class="table__cell table__cell_theme_dark">
+              <h4 class="table__heading table__heading_theme_dark">2</h4>
+              <p class="table__text table__text_theme_dark">
+                Сосредоточьтесь на каком-то одном навыке.
+              </p>
+            </li>
+            <li class="table__cell table__cell_theme_dark">
+              <h4 class="table__heading table__heading_theme_dark">3</h4>
+              <p class="table__text table__text_theme_dark">
+                Определите целевой уровень мастерства.
+              </p>
+            </li>
+            <li class="table__cell table__cell_theme_dark">
+              <h4 class="table__heading table__heading_theme_dark">4</h4>
+              <p class="table__text table__text_theme_dark">
+                Разбейте навык на элементы.
+              </p>
+            </li>
+            <li class="table__cell table__cell_theme_dark">
+              <h4 class="table__heading table__heading_theme_dark">5</h4>
+              <p class="table__text table__text_theme_dark">
+                Приготовьте всё необходимое для занятий.
+              </p>
+            </li>
+            <li class="table__cell table__cell_theme_dark">
+              <h4 class="table__heading table__heading_theme_dark">6</h4>
+              <p class="table__text table__text_theme_dark">
+                Устраните препятствия для занятий.
+              </p>
+            </li>
+            <li class="table__cell table__cell_theme_dark">
+              <h4 class="table__heading table__heading_theme_dark">7</h4>
+              <p class="table__text table__text_theme_dark">
+                Выделите специальное время для занятий.
+              </p>
+            </li>
+            <li class="table__cell table__cell_theme_dark">
+              <h4 class="table__heading table__heading_theme_dark">8</h4>
+              <p class="table__text table__text_theme_dark">
+                Создайте быстрые петли обратной связи.
+              </p>
+            </li>
+            <li class="table__cell table__cell_theme_dark">
+              <h4 class="table__heading table__heading_theme_dark">9</h4>
+              <p class="table__text table__text_theme_dark">
+                Занимайтесь по расписанию, короткими интенсивными интервалами.
+              </p>
+            </li>
+            <li class="table__cell table__cell_theme_dark">
+              <h4 class="table__heading table__heading_theme_dark">10</h4>
+              <p class="table__text table__text_theme_dark">
+                Уделяйте внимание количеству и скорости.
+              </p>
+            </li>
+          </ul>
+          <div class="kaufman__triangle"></div>
         </section>
       </main>
     </div>
